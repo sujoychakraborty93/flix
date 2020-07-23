@@ -42,6 +42,12 @@ app.use("/api/movies", movieRoute);
 app.use("/api/users", userRoute);
 app.use("/api/userprofiles", userProfileRoute);
 
+if (process.env.NODE_ENV === "PROD") {
+  app.get("/*", (req, res) => {
+    res.sendfile(path.join((__dirname = "client/build/index.html")));
+  });
+}
+
 port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`listening to server on port ${port}`);
