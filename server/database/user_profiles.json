@@ -1,0 +1,147 @@
+[
+  {
+    "_id": {
+      "$oid": "5f145e7634dfb452aca1872f"
+    },
+    "profile_name": "sujoy",
+    "movies_watched": [
+      {
+        "$oid": "5f14bdd034dfb452aca1877e"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1877f"
+      }
+    ],
+    "movies_suggested": [
+      {
+        "$oid": "5f14bdd034dfb452aca1878d"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18791"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18784"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18787"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18788"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1878c"
+      }
+    ],
+    "movies_predicted": [],
+    "genre_liked": ["Action", "War", "Suspense", "Thriller"],
+    "user_id": {
+      "$oid": "5f1194897589e268a4069b9d"
+    }
+  },
+  {
+    "profile_name": "nivi",
+    "movies_watched": [
+      {
+        "$oid": "5f14bdd034dfb452aca18784"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18787"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18788"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1878c"
+      }
+    ],
+    "movies_suggested": [
+      {
+        "$oid": "5f14bdd034dfb452aca1878d"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18791"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1877e"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1877f"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18785"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18786"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18787"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1878e"
+      }
+    ],
+    "movies_predicted": [],
+    "genre_liked": ["Romance", "Thriller", "Mystery", "Drama"],
+    "user_id": {
+      "$oid": "5f1194897589e268a4069b9d"
+    }
+  },
+  {
+    "profile_name": "arihant",
+    "movies_watched": [
+      {
+        "$oid": "5f14bdd034dfb452aca1877e"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1877f"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18780"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18781"
+      }
+    ],
+    "movies_suggested": [
+      {
+        "$oid": "5f14bdd034dfb452aca18782"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18783"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18784"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18785"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18785"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18788"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca18787"
+      },
+      {
+        "$oid": "5f14bdd034dfb452aca1878e"
+      }
+    ],
+    "movies_predicted": [],
+    "genre_liked": ["Children", "Drama", "Tragedy"],
+    "user_id": {
+      "$oid": "5f1194897589e268a4069b9d"
+    }
+  },
+  {
+    "profile_name": "guest",
+    "movies_watched": [],
+    "movies_suggested": [],
+    "movies_predicted": [],
+    "genre_liked": [],
+    "user_id": {
+      "$oid": "5f1194897589e268a4069b9d"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+/server/.env
+/server/.envd
+/server/node_modules
+/server/package-lock.json
+
+/server/client/node_modules
+/server/client/package-lock.json
+
+/server/database/extrafiles

@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "5f1194897589e268a4069b9d"
+  },
+  "age": 35,
+  "firstname": "Sujoy",
+  "lastname": "Chakraborty",
+  "emailid": "sujoy@myemail.com",
+  "sex": "male"
+},{
+  "_id": {
+    "$oid": "5f11949c7589e268a4069b9e"
+  },
+  "age": 30,
+  "firstname": "Bappa",
+  "lastname": "Chakraborty",
+  "emailid": "bappa@myemail.com",
+  "sex": "male"
+},{
+  "_id": {
+    "$oid": "5f1194ba7589e268a4069b9f"
+  },
+  "age": 34,
+  "firstname": "Nivedita",
+  "lastname": "Chakraborty",
+  "emailid": "nivedita@myemail.com",
+  "sex": "female"
+},{
+  "_id": {
+    "$oid": "5f1194d97589e268a4069ba0"
+  },
+  "firstname": "admin",
+  "emailid": "admin@myemail.com"
+},{
+  "_id": {
+    "$oid": "5f1373ef53407814b4b5fa00"
+  },
+  "age": 35,
+  "firstname": "barnali",
+  "lastname": "bhatt",
+  "emailid": "barnali@myemail.com",
+  "sex": "female"
+}]

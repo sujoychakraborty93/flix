@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  min-height: 80vh;
+  padding-bottom: 3vh;
+}
+.height-full-vh {
+  height: 100vh;
+}
+.background-gray {
+  background-color: darkslategray;
+}
+
+.profile-card:hover {
+  /* background-color: #790707; not overriding the original bgc */
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+}
+
+.h1-profile {
+  text-align: center;
+  margin: auto;
+  padding-top: 20vh;
+  color: #cac5c5;
+}
+
+.center-mid {
+  text-align: center;
+  margin: 10vh auto;
+}
+
+/* ====================================        NAVFOOTER      ====================================== */
+/* navbar footer inherited jumbotron class*/
+.jumbotron {
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* navbar footer */
+.navFoot {
+  /* margin: auto; */
+  font-weight: bolder;
+  text-decoration: none;
+  /* display: flex; */
+  color: #9b9b9b;
+  text-align: right;
+  border-right: 2px solid gray;
+}
+.navFoot > a {
+  color: #cac5c5;
+  display: inline-block;
+}
+.navFoot > a:hover {
+  color: #555555;
+}
+/* navbar footer icons */
+.iconCls {
+  color: rgba(200, 200, 200, 0.9);
+  font-size: 1.5em;
+  margin: 4px;
+  text-align: left;
+}
+.navFootGroup {
+  flex: 50%;
+}
+@media screen and (max-width: 768px) {
+  .navFootGroup {
+    flex: 100%;
+    font-size: 0.7em;
+    /* display: flex; */
+    text-align: center;
+  }
+  .nav-link {
+    padding: 0.3em;
+  }
+  .navFoot {
+    border-right: none;
+  }
+}
+
+/* navFooter ends */
+/* ===================================================================== */
+
+.flex {
+  display: flex;
+}
